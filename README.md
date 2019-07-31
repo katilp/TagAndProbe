@@ -6,7 +6,7 @@ Configuration files for the Tag-and-probe method to be used with the CMS Open Da
 
 This repository contains two configuration files, one to produce a root tree with the desired variables and the selection criteria, the other to do the fitting and to derive the efficiency value(s) for the selection criteria in question.
 
-The producer configuration `testTagProbeFitTreeProducer_ZMuMu_OpenData.py` is orginally from https://github.com/cms-sw/cmssw/blob/CMSSW_5_3_X/PhysicsTools/TagAndProbe/test/testTagProbeFitTreeProducer_ZMuMu.py with 
+The producer configuration `testTagProbeFitTreeProducer_ZMuMu_OpenData.py` is originally from https://github.com/cms-sw/cmssw/blob/CMSSW_5_3_X/PhysicsTools/TagAndProbe/test/testTagProbeFitTreeProducer_ZMuMu.py with 
  - flag `isMC` set as "false" 
  - process `muMcMatch` commented out from the path.
 
@@ -24,8 +24,10 @@ cmsenv
 mkdir WorkDir
 cd WorkDir/
 git clone git ...
+cd TagAndProbe
+cmsRun testTagProbeFitTreeProducer_ZMuMu_OpenData.py
 ```
 
-The output file of the produced (when run over only one AOD root file) looks as follows:
+The output file of the producer (when run over only one AOD root file) looks as follows:
 
 ![](fittercontent.JPG)
