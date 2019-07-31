@@ -16,6 +16,8 @@ Detailed documentation of the two parts in
 - https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideTagProbeFitTreeProducer
 - https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideTagProbeFitTreeAnalyzer
 
+## Fitter tree production
+
 Run in the CMS Open Data environment (if in the VM, inside the `CMS Shell`) with:
 
 ```
@@ -32,7 +34,9 @@ The output file of the producer (when run over only one AOD root file) looks as 
 
 ![](fittercontent.JPG)
 
-Do the fitting fit
+## Computing efficiency
+
+Compute the efficiency with 
 
 ```
 cmsRun testTagProbeFitTreeAnalyzer_ZMuMu_OpenData.py
