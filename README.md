@@ -7,7 +7,7 @@ Detailed documentation of the two parts in
 - https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideTagProbeFitTreeProducer
 - https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideTagProbeFitTreeAnalyzer
 
-Run in the CMS Open Data environment (if in with within the `CMS Shell`) with:
+Run in the CMS Open Data environment (if in the VM, inside the `CMS Shell`) with:
 
 ```
 cd CMSSW_5_3_32/src
