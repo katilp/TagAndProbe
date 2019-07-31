@@ -1,6 +1,6 @@
 # TagAndProbe
 
-Work in progress!
+## Work in progress!
 
 Configuration files for the Tag-and-probe method to be used with the CMS Open Data
 
@@ -31,3 +31,9 @@ cmsRun testTagProbeFitTreeProducer_ZMuMu_OpenData.py
 The output file of the producer (when run over only one AOD root file) looks as follows:
 
 ![](fittercontent.JPG)
+
+Do the fitting fit
+
+```
+cmsRun testTagProbeFitTreeAnalyzer_ZMuMu_OpenData.py
+```
