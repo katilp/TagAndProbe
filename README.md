@@ -25,7 +25,7 @@ cd CMSSW_5_3_32/src
 cmsenv       
 mkdir WorkDir
 cd WorkDir/
-git clone git ...
+git clone git://github.com/katilp/TagAndProbe
 cd TagAndProbe
 cmsRun testTagProbeFitTreeProducer_ZMuMu_OpenData.py
 ```
