@@ -4,8 +4,9 @@
 
 To do:
 - filter validated runs
-- clean producer 
+- clean non relevant selections from the producer 
 - read file names properly from the file index file
+- select correct fit functions in the analyzer
 
 
 Configuration files for the Tag-and-probe method to be used with the CMS Open Data
