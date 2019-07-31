@@ -6,7 +6,7 @@ To do:
 - filter validated runs
 - clean non relevant selections from the producer 
 - read file names properly from the file index file
-- select correct fit functions in the analyzer (current BW was from an exmample reading a fitter tree from a GEN file)
+- select correct fit functions in the analyzer (current BW was from an example reading a fitter tree from a GEN file)
 - check if the analyzer failures are due to the small sample
 
 
