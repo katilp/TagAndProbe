@@ -2,6 +2,11 @@
 
 ## Work in progress!
 
+To do:
+- filter validated runs
+- clean producer 
+
+
 Configuration files for the Tag-and-probe method to be used with the CMS Open Data
 
 This repository contains two configuration files, one to produce a root tree with the desired variables and the selection criteria, the other to do the fitting and to derive the efficiency value(s) for the selection criteria in question.
