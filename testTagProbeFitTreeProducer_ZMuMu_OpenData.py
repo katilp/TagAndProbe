@@ -8,11 +8,16 @@ process = cms.Process("TagProbe")
 
 process.load('FWCore.MessageService.MessageLogger_cfi')
 process.options   = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
-process.MessageLogger.cerr.FwkReport.reportEvery = 100
+process.MessageLogger.cerr.FwkReport.reportEvery = 1000
 
 process.source = cms.Source("PoolSource", 
     fileNames = cms.untracked.vstring(
         'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/000D143E-9535-E311-B88B-002618943934.root',
+        'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/0020AF81-A835-E311-97DC-00261894398C.root',
+        'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/0062BD79-9235-E311-9320-003048FFCC2C.root',
+        'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/008B0182-5E35-E311-B039-003048FFD71E.root',
+        'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/009A5FA1-0D36-E311-B603-00261894388A.root',
+        'root://eospublic.cern.ch//eos/opendata/cms/Run2011A/DoubleMu/AOD/12Oct2013-v1/10000/00ADCF5D-7435-E311-9347-00261894397A.root'
     )
 )
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )    
