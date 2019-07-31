@@ -18,3 +18,7 @@ mkdir WorkDir
 cd WorkDir/
 git clone git ...
 ```
+
+The output file of the produced (run over only one AOD root file) looks as follows:
+
+![](fittercontent.jpg)
