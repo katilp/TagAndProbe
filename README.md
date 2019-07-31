@@ -7,6 +7,7 @@ To do:
 - clean non relevant selections from the producer 
 - read file names properly from the file index file
 - select correct fit functions in the analyzer
+- check if the analyzer failures are due to the small sample
 
 
 Configuration files for the Tag-and-probe method to be used with the CMS Open Data
