@@ -19,6 +19,6 @@ cd WorkDir/
 git clone git ...
 ```
 
-The output file of the produced (run over only one AOD root file) looks as follows:
+The output file of the produced (when run over only one AOD root file) looks as follows:
 
-![](fittercontent.jpg)
+![](fittercontent.JPG)
