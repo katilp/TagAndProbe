@@ -5,6 +5,7 @@
 To do:
 - filter validated runs
 - clean producer 
+- read file names properly from the file index file
 
 
 Configuration files for the Tag-and-probe method to be used with the CMS Open Data
