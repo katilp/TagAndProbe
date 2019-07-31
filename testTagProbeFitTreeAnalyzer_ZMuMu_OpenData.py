@@ -10,10 +10,10 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(1) )
 
 process.TagProbeFitTreeAnalyzer = cms.EDAnalyzer("TagProbeFitTreeAnalyzer",
     # IO parameters:
-    InputFileNames = cms.vstring("testTagProbeFitTreeProducer_Zmumu.root"),
+    InputFileNames = cms.vstring("testTagProbeFitTreeProducer_ZMuMu.root"),
     InputDirectoryName = cms.string("MuonEffs"),
     InputTreeName = cms.string("fitter_tree"),
-    OutputFileName = cms.string("testTagProbeFitTreeAnalyzer_Zmumu.root"),
+    OutputFileName = cms.string("testTagProbeFitTreeAnalyzer_ZMuMu.root"),
     #numbrer of CPUs to use for fitting
     NumCPU = cms.uint32(1),
     # specifies wether to save the RooWorkspace containing the data for each bin and
